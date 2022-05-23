@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod UGO+RWX
+chmod -R a+x .
