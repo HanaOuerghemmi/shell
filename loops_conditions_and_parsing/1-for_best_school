@@ -1,3 +1,4 @@
+# task 1 for 10 times Best School
 #!/usr/bin/env bash
 for i in {1..10} 
 do 
