@@ -1,4 +1,4 @@
-#/usr/bin/env bash
+#!/usr/bin/env bash
 #display 4 bad luck from china 9 bad luck from japan 17 bad luck from itlay with while and case
 i=0
 while [ $i -le 19 ]
