@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-#parse Apache logs
-awk 
+# displays the visitor IP and HHTTP_CODE along with the HTTP status code from the Apache log file.
+awk '{print $1,$9}' apache-access.log
+
