@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # this script display  To infinity and beyond indefinitelyand sleep 2
 for ((;;)) do
-	echo "To infinity and beyond "
-	sleep 2
+	echo "To infinity and beyond"
 done
+	sleep 2
 
