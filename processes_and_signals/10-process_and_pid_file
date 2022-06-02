@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # display i am invicible!! SIGTERM AND sleep2 
+
 file="/var/run/myscript.pid"
+touch $file > "$BASHPID"
 while true
 do
 	echo "To infinity and beyond"
