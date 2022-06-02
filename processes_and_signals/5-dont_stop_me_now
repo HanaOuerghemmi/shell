@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# this script stop the task infinity
+# this script stop the task infinity kill
 file="4-to_infinity_and_beyond"
 kill "$(pgrep -f $file)"
 
