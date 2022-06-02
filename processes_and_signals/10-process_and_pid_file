@@ -2,7 +2,7 @@
 # display i am invicible!! SIGTERM AND sleep2 
 echo "/var/run/myscript.pid"
 while true
-
+do
 	echo "To infinity and beyond"
 	trap "echo I hate the kill command" SIGTERM | exit
 	trap "echo Y U no love me?!" SIGINT | exit
