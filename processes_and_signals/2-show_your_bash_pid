@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-#this script show my bash PID
+#this script show my bash PID ps
 ps faux | grep bash
 
