@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-# this script stop the task infinity
+# this script stop the task infinity pkill
 pkill -f 4-to_infinity_and_beyond
