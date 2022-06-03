@@ -2,7 +2,7 @@
 #11 manage my processe
 case $1
 	start)
-		./manage_my_process && touch "/var/run/my_process.pid" > "$BASHPID" 
+		./manage_my_process && echo $$ > /var/run/my_process 
 	       	echo "manage_my_process started"
 		;;
 	stop)
@@ -14,7 +14,6 @@ case $1
 		pkill -f manage_my_process
 		rm /var/run/my_process.pid
 		./manage_my_process
-		touch "/var/run/my_process.pid" > "$BASHPID"
 		echo manage_my_process restarted"
 		;;
 	*)
