@@ -1,3 +1,3 @@
 ### Shell
-Allowed editors: vi, vim, emacs	
-All your scripts will be tested 	on Ubuntu 20																
+'Allowed editors: vi, vim, emac All your scripts will be tested on Ubuntu 20'
+## Table of contents																
